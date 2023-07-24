@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white ;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 800px;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #ffffff;
+    border-radius: 11px;
+    padding : 20px;
+    margin: 50px auto 0;
+    text-align: center;
+    display : flex;
+}
+input{
+    color: white;
+    size: 50px;
+}
+.type{
+    background:  #03004f;
+    padding: 20px;
+    margin: 50px auto 0;
+    text-align: center; 
+    border-radius: 17px;  
+    color: white;
+}
+.finish{
+    text-align: center;
+    margin: 60px;
+    padding:2px;
+    color: #03004f;
+}
+.sign-up{
+    color: #03004f;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+
+}
+.sign-up:hover{
+    animation-duration: 2s;
+    background-color: #00eeab;
+}
+hr{
+    height: 3px;
+}
+.container input{
+    position: absolute;
+    cursor: pointer;
+    height: 25px;
+    width: 20px;
+}
